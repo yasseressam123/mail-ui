@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.1.3-dist/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- ************************************* navbar section start *************************************** -->
+      <div class="row navBar-lg">
+        <div class="col-12">
+          <div class="navBar">
+            <div class="d-flex logo-section">
+              <div><img src="./assets/imgs/logo-1.svg" alt="logo" /></div>
+              <div><p>MAIL IPSUM</p></div>
+            </div>
+            <div class="search-input">
+              <img src="./assets/imgs/search 1.svg" alt="search" />
+              <input type="search" placeholder="Search here..." />
+            </div>
+            <div class="d-flex links-section">
+              <div class="d-flex links">
+                <div><img src="./assets/imgs/inbox.svg" alt="inbox" /></div>
+                <div>
+                  <img src="./assets/imgs/settings.svg" alt="setting" />
+                </div>
+                <div><img src="./assets/imgs/help.svg" alt="help" /></div>
+              </div>
+              <div class="d-flex profile">
+                <p>John Alex</p>
+                <div><img src="./assets/imgs/menu.svg" alt="menu" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row navBarSm">
+        <nav class="navbar navbar-expand-lg py-4 px-0">
+          <div class="container-fluid p-0 m-0">
+            <div
+              class="navbar-toggler px-4 colapse-btn"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="17"
+                viewBox="0 0 32 17"
+              >
+                <rect width="32" height="3.69565" />
+                <rect y="6.65216" width="32" height="3.69565" />
+                <rect y="13.3043" width="32" height="3.69565" />
+              </svg>
+            </div>
+            <div class="d-flex logo-section">
+              <div><img src="./assets/imgs/logo-1.svg" alt="logo" /></div>
+              <div><p>MAIL IPSUM</p></div>
+            </div>
+            <div class="px-4">
+              <img src="./assets/imgs/menu.svg" alt="menu" />
+            </div>
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <div
+              class="collapse navbar-collapse colapse-color"
+              id="navbarSupportedContent"
+            >
+              <div class="side-menu-tabs">
+                <ul>
+                  <li class="active">
+                    <div class="">
+                      <img
+                        src="./assets/imgs/side-menu/inbox-1.svg"
+                        alt="inbox"
+                      />
+                      <p>Inbox</p>
+                    </div>
+                    <span><p>2</p></span>
+                  </li>
+                  <li>
+                    <div>
+                      <img
+                        src="./assets/imgs/side-menu/starred 1.svg"
+                        alt="starred"
+                      />
+                      <p>Starred</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img
+                        src="./assets/imgs/side-menu/send-1.svg"
+                        alt="sent"
+                      />
+                      <p>Sent</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="categories d-flex">
+                <div>
+                  <img
+                    src="./assets/imgs/side-menu/category.svg"
+                    alt="category"
+                  />
+                </div>
+                <ul>
+                  <li>Categories</li>
+                  <li>Social</li>
+                  <li>Updates</li>
+                  <li>Forums</li>
+                  <li>Promotions</li>
+                </ul>
+              </div>
+              <div class="line"></div>
+              <div class="trash d-flex">
+                <div>
+                  <img src="./assets/imgs/side-menu/delete-1.svg" alt="trash" />
+                </div>
+                <p>Trash</p>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- ************************************* navbar section end *************************************** -->
+      <div class="row">
+        <!-- ************************************* side menu section start *************************************** -->
+        <div class="side-menu">
+          <div class="compose-mail-container">
+            <div class="compose-mail">
+              <img src="./assets/imgs/Vector.svg" alt="mail" />
+              <div><p>Compose Mail</p></div>
+            </div>
+          </div>
+          <div class="side-menu-tabs">
+            <ul>
+              <li class="active">
+                <div class="">
+                  <img src="./assets/imgs/side-menu/inbox-1.svg" alt="inbox" />
+                  <p>Inbox</p>
+                </div>
+                <span><p>2</p></span>
+              </li>
+              <li>
+                <div>
+                  <img
+                    src="./assets/imgs/side-menu/starred 1.svg"
+                    alt="starred"
+                  />
+                  <p>Starred</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <img src="./assets/imgs/side-menu/send-1.svg" alt="sent" />
+                  <p>Sent</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <div class="categories d-flex">
+            <div>
+              <img src="./assets/imgs/side-menu/category.svg" alt="category" />
+            </div>
+            <ul>
+              <li>Categories</li>
+              <li>Social</li>
+              <li>Updates</li>
+              <li>Forums</li>
+              <li>Promotions</li>
+            </ul>
+          </div>
+          <div class="line"></div>
+          <div class="trash d-flex">
+            <div>
+              <img src="./assets/imgs/side-menu/delete-1.svg" alt="trash" />
+            </div>
+            <p>Trash</p>
+          </div>
+        </div>
+        <!-- ************************************* side menu section end *************************************** -->
+        <!-- ************************************* main section start *************************************** -->
+        <div class="main-section p-4">
+          <div class="alert-notification">
+            <img
+              class="close-alert"
+              src="./assets/imgs/inbox/cancel-music 1.svg"
+              alt="close"
+            />
+            <div class="alert-content">
+              <p class="alert-main-title">
+                <span>Welcome Back John,</span> You have...
+              </p>
+              <p class="alert-sub-title"><span>2</span> New Mails</p>
+            </div>
+            <div>
+              <img src="./assets/imgs/inbox/Group 15 (2).png" alt="image" />
+            </div>
+          </div>
+          <div class="inbox-table">
+            <div class="toolbar">
+              <div class="toolbar-select">
+                <input type="checkbox" />
+                <div>
+                  <img
+                    src="./assets/imgs/inbox/ellipsis 2.svg"
+                    alt="ellipsis"
+                  />
+                </div>
+              </div>
+              <div class="toolbar-control">
+                <div class="sort">
+                  <div><p>Sort by</p></div>
+                  <div>
+                    <img
+                      src="./assets/imgs/inbox/shape-1-copy-5 1.svg"
+                      alt="down"
+                    />
+                  </div>
+                </div>
+                <div class="arrange">
+                  <img
+                    src="./assets/imgs/inbox/vertical view 1.svg"
+                    alt="vertical"
+                  />
+                  <img
+                    src="./assets/imgs/inbox/horizontal view.svg"
+                    alt="horizontal"
+                  />
+                </div>
+              </div>
+            </div>
+            <div id="inbox-container" class="">
+              <div class="inbox-side">
+                <!-- to open message click on first one -->
+                <div
+                  onclick="document.getElementById('inbox-container').classList.add('inbox-container')"
+                  class="messg"
+                >
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Marc John</p>
+                    <p class="messg-2-content">New Envelope</p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>23-1-2021</p>
+                    </div>
+                    <img
+                      class="msg-envelop"
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="messg">
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Marc John</p>
+                    <p class="messg-2-content">New Updates</p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>23-1-2021</p>
+                    </div>
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="messg">
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Bank</p>
+                    <p class="messg-2-content">Receipt</p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>22-1-2021</p>
+                    </div>
+                    <img
+                      class="msg-envelop"
+                      src="./assets/imgs/inbox/receipt-template-us-band-blue-750px 1.png"
+                      alt="envolope"
+                    />
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="messg">
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Emy Wilsom</p>
+                    <p class="messg-2-content">Upcoming webinar</p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>21-1-2021</p>
+                    </div>
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="messg">
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Davild Walker</p>
+                    <p class="messg-2-content">
+                      Resurces to help reach your global aud...
+                    </p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>20-1-2021</p>
+                    </div>
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="messg">
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Asana</p>
+                    <p class="messg-2-content">Daily work summr</p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>20-1-2021</p>
+                    </div>
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="messg">
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Asana</p>
+                    <p class="messg-2-content">Daily work summr</p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>19-1-2021</p>
+                    </div>
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="messg">
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Asana</p>
+                    <p class="messg-2-content">Daily work summr</p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>18-1-2021</p>
+                    </div>
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="messg">
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Asana</p>
+                    <p class="messg-2-content">Daily work summr</p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>17-1-2021</p>
+                    </div>
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="messg">
+                  <div class="messg-1">
+                    <div class="messg-1-input"><input type="checkbox" /></div>
+                    <div class="messg-1-favourite">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                    <div class="messg-1-online">
+                      <img src="./assets/imgs/inbox/online.svg" alt="online" />
+                    </div>
+                  </div>
+                  <div class="messg-2">
+                    <p class="messg-2-name">Asana</p>
+                    <p class="messg-2-content">Daily work summr</p>
+                    <img
+                      src="./assets/imgs/inbox/envelope 1.png"
+                      alt="envolope"
+                    />
+                  </div>
+                  <div class="messg-3">
+                    <div>
+                      <p>16-1-2021</p>
+                    </div>
+                    <div class="messg-1-favourite fav-sm">
+                      <img
+                        src="./assets/imgs/inbox/forma-1 1.svg"
+                        alt="favourite"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="message-content">
+                <div>
+                  <div class="inbox-toolbar">
+                    <p>New Envelope</p>
+                    <div>
+                      <img src="./assets/imgs/inbox/print.svg" alt="print" />
+                      <img
+                        src="./assets/imgs/inbox/download.svg"
+                        alt="download"
+                      />
+                      <img src="./assets/imgs/inbox/close.svg" alt="close" />
+                    </div>
+                  </div>
+                  <div>
+                    <div class="information-bar">
+                      <div>
+                        <p>marc.john@email.com</p>
+                        <p><span>23-1-2021 </span> <span>19:05AM</span></p>
+                      </div>
+                      <div>
+                        <img
+                          src="./assets/imgs/inbox/forward-right-arrow-button@2x 1.svg"
+                          alt="forward"
+                        />
+                        <img
+                          src="./assets/imgs/inbox/reply 2.svg"
+                          alt="reply"
+                        />
+                        <img
+                          src="./assets/imgs/inbox/ellipsis 3.svg"
+                          alt="ellipsis"
+                        />
+                      </div>
+                    </div>
+                    <div class="attach-img">
+                      <img src="./assets/imgs/inbox/4 1.png" alt="envelope" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- ************************************* float button *************************************** -->
+    <div class="float-btn">
+      <svg width="42" height="34" viewBox="0 0 42 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1.20402 1.20369L1 1.41584V14.9505V28.4856L1.1963 28.6742L1.38487 28.8705H11.2297H21.0746L21.2396 28.69C21.4595 28.4624 21.4672 28.015 21.2632 27.7638L21.114 27.5752L12.3994 27.5358L3.68474 27.4964L6.04802 25.6123C10.256 22.2598 14.5899 18.7191 16.7959 16.8269L17.3218 16.3717L17.9656 16.937C18.3187 17.2512 18.8215 17.6044 19.0962 17.7299C19.7713 18.0518 20.6507 18.1697 21.3888 18.0441C22.5743 17.8401 22.3073 18.0518 31.069 10.3191L39.1164 3.2142L39.1554 8.67838C39.1948 14.3311 39.2025 14.4173 39.5167 14.5352C39.752 14.6294 40.082 14.5823 40.2624 14.4331L40.451 14.284L40.49 7.97204C40.5294 1.34594 40.5294 1.2675 40.1917 1.08665C40.0739 1.02365 34.4057 1.00008 20.7214 1.00008H1.41616L1.20402 1.20369ZM37.9386 2.41276C37.7972 2.64035 22.1268 16.3794 21.8049 16.5522C21.2868 16.8346 20.745 16.9053 20.2114 16.7485C19.6774 16.5916 19.3555 16.3717 18.2643 15.398C17.7697 14.9582 14.2681 11.865 10.484 8.52842C6.69218 5.19179 3.59086 2.42821 3.59086 2.39691C3.59086 2.36562 11.3317 2.33433 20.7922 2.33433C31.8855 2.33392 37.9699 2.35749 37.9386 2.41276ZM9.39277 9.38432C13.1297 12.6815 16.1993 15.4057 16.2152 15.4451C16.2623 15.5865 11.9991 19.1195 6.07199 23.8615C4.08587 25.455 2.42934 26.7506 2.39764 26.7506C2.36635 26.7506 2.33465 21.4433 2.33465 14.9664C2.33465 3.94371 2.34237 3.1821 2.46795 3.2841C2.53867 3.34669 5.65542 6.08671 9.39277 9.38432Z" fill="#F9B52E" stroke="#F9B52E"/>
+        <path d="M36.8804 15.6282L33.2518 18.5311L37.6061 22.1598L39.7833 19.2568L36.8804 15.6282Z" fill="#F9B52E"/>
+        <path d="M28.8974 30.1428L25.9944 27.2399L24.543 31.5943L28.8974 30.1428Z" fill="#F9B52E"/>
+        <path d="M35.9679 15.5629C35.6773 15.712 34.3349 17.0073 30.2915 21.0429L25.0078 26.3344L24.2856 28.9801C23.6341 31.3434 23.5321 31.6494 23.3123 31.877C22.8807 32.3245 22.912 32.8272 23.383 33.0702C23.6971 33.2352 23.9247 33.1804 24.3015 32.8426C24.5608 32.6069 24.8432 32.513 27.2142 31.8693L29.8441 31.1548L35.1668 25.8317C41.0078 19.9907 40.8273 20.2025 40.8273 19.2527C40.8273 18.4362 40.631 18.1302 39.3281 16.8346C38.0012 15.5158 37.7577 15.3743 36.9099 15.3666C36.4783 15.3666 36.2739 15.4056 35.9679 15.5629ZM38.3466 17.816C39.3671 18.8365 39.5479 19.0487 39.5479 19.2527C39.5479 19.4567 39.3829 19.6611 38.4645 20.5715L37.3887 21.6473L35.952 20.2106L34.5231 18.7739L35.6066 17.6986C36.5015 16.8114 36.7372 16.6228 36.9258 16.6228C37.1144 16.6228 37.3574 16.8268 38.3466 17.816ZM32.9373 26.0987L29.4596 29.5767L28.0307 28.1478L26.594 26.7111L30.064 23.2412L33.542 19.7631L34.971 21.1921L36.4076 22.6287L32.9373 26.0987ZM28.0226 30.2123C27.9441 30.2908 25.2435 31.0052 25.2041 30.9581C25.1728 30.9268 25.8637 28.2652 25.9421 28.1319C25.9657 28.1006 26.4603 28.5404 27.0334 29.1134C27.6145 29.6864 28.0543 30.181 28.0226 30.2123Z" fill="#F9B52E"/>
+        </svg>        
+    </div>
+      <!-- ************************************* float button *************************************** -->
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
